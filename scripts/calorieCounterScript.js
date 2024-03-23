@@ -99,6 +99,3 @@ function clearForm() {
 addEntryButton.addEventListener("click", addEntry);
 calorieCounter.addEventListener("submit", calculateCalories);
 clearButton.addEventListener("click", clearForm)
-
-const prueba = Array.from(document.querySelectorAll('.input-container'));
-console.log(`PRUEBA: ${prueba}`);
